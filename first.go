@@ -4,7 +4,7 @@ import (
 	"unicode"
 )
 
-// First capitalises the first character in a string and returns it
+// Capitalises the first character of a string
 func First(str string) string {
 	if len(str) == 0 {
 		return ""
